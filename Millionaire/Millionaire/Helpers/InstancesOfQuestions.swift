@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Структура, содержащая экземпляры вопросов и ответов.
 struct InstancesOfQuestions {
     var arrayOfQuestions: [Question] = [
         Question(question: "Что растёт в огороде?",

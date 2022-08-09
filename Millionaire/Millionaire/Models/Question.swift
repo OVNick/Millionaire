@@ -7,9 +7,13 @@
 
 import Foundation
 
+/// Cтруктура вопросов.
 struct Question {
+    /// Вопрос.
     let question: String
+    /// Варианты ответов.
     let answerOptions: [String]
+    /// Правильный ответ.
     let correctAnswer: Int
     
     init(question: String,
